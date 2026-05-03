@@ -1,0 +1,130 @@
+import whisper
+import json
+import os
+import subprocess
+import sys
+from dotenv import load_dotenv
+
+# Load variables from .env
+load_dotenv()
+
+class MediaTranscriber:
+    def __init__(self, whisper_size="medium"):
+        """Initializes the local Whisper model."""
+        print(f"--- Loading Whisper {whisper_size} model... ---")
+        self.stt_model = whisper.load_model(whisper_size) 
+
+    def download_audio(self, url):
+        """
+        Downloads audio using yt-dlp and returns the generated filename.
+        Uses sys.executable to stay within the correct environment.
+        """
+        output_template = "%(uploader)s_%(upload_date)s.%(ext)s"
+        python_path = sys.executable 
+        
+        # Get the predicted filename
+        try:
+            # Added quotes around url for shell safety
+            get_name_cmd = [python_path, '-m', 'yt_dlp', '--get-filename', '-o', output_template, url]
+            generated_name = subprocess.check_output(get_name_cmd).decode().strip()
+            final_audio_name = os.path.splitext(generated_name)[0] + ".mp3"
+        except Exception as e:
+            print(f"Error getting filename: {e}")
+            return None
+        
+        if os.path.exists(final_audio_name):
+            print(f"--- File already exists: {final_audio_name} ---")
+            return final_audio_name
+
+        print(f"--- Starting download: {final_audio_name} ---")
+        # Using sys.executable and quoted URL to prevent shell errors with '&'
+        download_cmd = f'{python_path} -m yt_dlp -x --audio-format mp3 -o "{output_template}" "{url}"'
+        os.system(download_cmd)
+        
+        return final_audio_name
+
+    def transcribe_local(self, audio_path):
+        """Performs speech-to-text using the local Whisper model."""
+        print(f"--- Transcribing: {audio_path} ---")
+        result = self.stt_model.transcribe(audio_path, verbose=True)
+        return result['text']
+
+    def process_from_file(self, file_path, output_folder):
+        """
+        Reads URLs from a text file and saves each transcription to the output_folder.
+        """
+        # Ensure the output directory exists
+        if not os.path.exists(output_folder):
+            os.makedirs(output_folder)
+            print(f"--- Created directory: {output_folder} ---")
+
+        if not os.path.exists(file_path):
+            print(f"Error: {file_path} not found.")
+            return
+
+        with open(file_path, "r") as f:
+            urls = [line.strip() for line in f if line.strip()]
+
+        print(f"Found {len(urls)} links. Starting process...")
+
+        for i, url in enumerate(urls):
+            print(f"\n=== Processing {i+1}/{len(urls)}: {url} ===")
+            
+            try:
+                # 1. Letöltés
+                audio_file = self.download_audio(url)
+                if not audio_file or not os.path.exists(audio_file):
+                    print(f"Skipping {url} due to download error.")
+                    continue
+                
+                # 2. Transzkripció (Whisper vagy Azure hívás)
+                raw_text = self.transcribe_local(audio_file)
+                
+                # --- Módosított rész kezdete ---
+                # Levágjuk a kiterjesztést az audio fájl nevéből (pl. 'atv.mp3' -> 'atv')
+                base_name = os.path.splitext(audio_file)[0]
+                
+                # A JSON fájl neve pontosan ugyanaz lesz, mint az audio fájlé volt
+                file_name = f"{base_name}.json"
+                output_path = os.path.join(output_folder, file_name)
+                # --- Módosított rész vége ---
+
+                # 3. Adatok összeállítása és mentése
+                data = {
+                    "url": url,
+                    "original_filename": audio_file,
+                    "raw_text": raw_text
+                }
+                
+                with open(output_path, "w", encoding="utf-8") as f_out:
+                    json.dump(data, f_out, ensure_ascii=False, indent=4)
+                
+                print(f"✅ Saved: {output_path}")
+
+                # 4. Takarítás
+                if os.path.exists(audio_file):
+                    os.remove(audio_file)
+                    print(f"--- Temporary file ({audio_file}) deleted. ---")
+
+            except Exception as e:
+                print(f"❌ Error processing {url}: {e}")
+
+        print(f"\n--- Done! Results saved in: {output_folder} ---")
+
+# --- EXECUTION ---
+if __name__ == "__main__":
+    # Get the base path from the environment
+    # Note: Ensure your .env has PATH=/Users/mac/Downloads/egyetem/2026_02_tavasz/hiradok_kozvelkut
+    BASE_PATH = os.getenv('PROJECT_DIR')
+    
+    if not BASE_PATH:
+        print("Error: 'PROJECT_DIR' variable not found in .env file.")
+        sys.exit(1)
+
+    # Construct absolute paths
+    INPUT_FILE = os.path.join(BASE_PATH, "video_links/m1.txt")
+    OUTPUT_DIR = os.path.join(BASE_PATH, "transcripts")
+    
+    # Initialize and run with the "large" model for accuracy
+    transcriber = MediaTranscriber(whisper_size="medium")
+    transcriber.process_from_file(INPUT_FILE, output_folder=OUTPUT_DIR)

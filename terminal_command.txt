@@ -1,0 +1,1 @@
+nohup caffeinate -i python /Users/mac/Downloads/egyetem/2026_02_tavasz/hiradok_kozvelkut/main.py > /Users/mac/Downloads/egyetem/2026_02_tavasz/hiradok_kozvelkut/transcription_log.txt 2>&1 &
