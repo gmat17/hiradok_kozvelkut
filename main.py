@@ -1,6 +1,8 @@
 import whisper
 import json
 import os
+os.environ["PYTHONUTF8"] = "1"
+os.environ["PYTHONIOENCODING"] = "utf-8"
 import subprocess
 import sys
 from dotenv import load_dotenv
@@ -15,33 +17,46 @@ class MediaTranscriber:
         self.stt_model = whisper.load_model(whisper_size) 
 
     def download_audio(self, url):
-        """
-        Downloads audio using yt-dlp and returns the generated filename.
-        Uses sys.executable to stay within the correct environment.
-        """
         output_template = "%(uploader)s_%(upload_date)s.%(ext)s"
-        python_path = sys.executable 
-        
-        # Get the predicted filename
-        try:
-            # Added quotes around url for shell safety
-            get_name_cmd = [python_path, '-m', 'yt_dlp', '--get-filename', '-o', output_template, url]
-            generated_name = subprocess.check_output(get_name_cmd).decode().strip()
-            final_audio_name = os.path.splitext(generated_name)[0] + ".mp3"
-        except Exception as e:
-            print(f"Error getting filename: {e}")
-            return None
-        
-        if os.path.exists(final_audio_name):
-            print(f"--- File already exists: {final_audio_name} ---")
-            return final_audio_name
+        python_path = sys.executable
 
-        print(f"--- Starting download: {final_audio_name} ---")
-        # Using sys.executable and quoted URL to prevent shell errors with '&'
-        download_cmd = f'{python_path} -m yt_dlp -x --audio-format mp3 -o "{output_template}" "{url}"'
-        os.system(download_cmd)
-        
-        return final_audio_name
+        cmd = [
+            python_path,
+            "-m",
+            "yt_dlp",
+            "-x",
+            "--audio-format", "mp3",
+            "--restrict-filenames",
+            "-o", output_template,
+            url
+        ]
+
+        print("--- Downloading audio ---")
+
+        result = subprocess.run(
+            cmd,
+            text=True,
+            encoding="utf-8",
+            errors="replace",
+            capture_output=True
+        )
+
+        if result.returncode != 0:
+            print("❌ yt-dlp failed:")
+            print(result.stderr)
+            return None
+
+        # 🔥 IMPORTANT FIX:
+        # reconstruct expected filename (best effort)
+        expected = output_template.replace("%(ext)s", "mp3")
+
+        # try to find actual file
+        folder = os.getcwd()
+        for file in os.listdir(folder):
+            if file.endswith(".mp3"):
+                return file
+
+        return None
 
     def transcribe_local(self, audio_path):
         """Performs speech-to-text using the local Whisper model."""
@@ -114,7 +129,6 @@ class MediaTranscriber:
 # --- EXECUTION ---
 if __name__ == "__main__":
     # Get the base path from the environment
-    # Note: Ensure your .env has PATH=/Users/mac/Downloads/egyetem/2026_02_tavasz/hiradok_kozvelkut
     BASE_PATH = os.getenv('PROJECT_DIR')
     
     if not BASE_PATH:
@@ -122,7 +136,7 @@ if __name__ == "__main__":
         sys.exit(1)
 
     # Construct absolute paths
-    INPUT_FILE = os.path.join(BASE_PATH, "video_links/m1.txt")
+    INPUT_FILE = os.path.join(BASE_PATH, "video_links/m1_pot.txt")
     OUTPUT_DIR = os.path.join(BASE_PATH, "transcripts")
     
     # Initialize and run with the "large" model for accuracy
