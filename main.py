@@ -136,7 +136,7 @@ if __name__ == "__main__":
         sys.exit(1)
 
     # Construct absolute paths
-    INPUT_FILE = os.path.join(BASE_PATH, "video_links/hirtv.txt")
+    INPUT_FILE = os.path.join(BASE_PATH, "video_links/m1_pot2.txt")
     OUTPUT_DIR = os.path.join(BASE_PATH, "transcripts")
     
     # Initialize and run with the "large" model for accuracy

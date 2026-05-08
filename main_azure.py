@@ -148,10 +148,9 @@ class AzureMediaTranscriber:
                 print(f"❌ Hiba a videó feldolgozásakor ({url}): {e}")
 
 # --- INDÍTÁS ---
-# if __name__ == "__main__":
-#     transcriber = AzureMediaTranscriber()
-    
-#     # A linkeket tartalmazó fájl abszolút útvonala
-#     LINKS_FILE = os.path.join(transcriber.base_path, "video_links", "m1.txt")
-    
-#     transcriber.process_from_file(LINKS_FILE)
+if __name__ == "__main__":
+    transcriber = AzureMediaTranscriber()
+    # A linkeket tartalmazó fájl abszolút útvonala
+    LINKS_FILE = os.path.join(transcriber.base_path, "video_links", "m1_pot2_forditott.txt")
+        
+    transcriber.process_from_file(LINKS_FILE)

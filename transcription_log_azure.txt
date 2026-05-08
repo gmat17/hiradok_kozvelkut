@@ -1,0 +1,171 @@
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] Extracting URL: https://www.youtube.com/watch?v=TNFMuW1vOPE&pp=ygUdbTEgaMOtcmFkw7MgMjAyNi4wMy4yOS4gMTI6MDA%3D
+[youtube] TNFMuW1vOPE: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] TNFMuW1vOPE: Downloading android vr player API JSON
+[info] TNFMuW1vOPE: Downloading 1 format(s): 251
+[download] Destination: /Users/mac/Downloads/egyetem/2026_02_tavasz/hiradok_kozvelkut/M1 - Híradó_20260329.webm
+[download]   0.0% of   28.55MiB at  Unknown B/s ETA Unknown[download]   0.0% of   28.55MiB at    1.98MiB/s ETA 00:14  [download]   0.0% of   28.55MiB at    3.92MiB/s ETA 00:07[download]   0.1% of   28.55MiB at    7.40MiB/s ETA 00:03[download]   0.1% of   28.55MiB at    9.40MiB/s ETA 00:03[download]   0.2% of   28.55MiB at    7.15MiB/s ETA 00:03[download]   0.4% of   28.55MiB at    9.12MiB/s ETA 00:03[download]   0.9% of   28.55MiB at   10.80MiB/s ETA 00:02[download]   1.7% of   28.55MiB at    9.80MiB/s ETA 00:02[download]   3.5% of   28.55MiB at    8.45MiB/s ETA 00:03[download]   7.0% of   28.55MiB at    8.25MiB/s ETA 00:03[download]  14.0% of   28.55MiB at   12.44MiB/s ETA 00:01[download]  28.0% of   28.55MiB at   14.54MiB/s ETA 00:01[download]  33.3% of   28.55MiB at   14.43MiB/s ETA 00:01[download]  33.3% of   28.55MiB at  Unknown B/s ETA Unknown[download]  33.3% of   28.55MiB at    2.19MiB/s ETA 00:08  [download]  33.3% of   28.55MiB at    3.47MiB/s ETA 00:05[download]  33.4% of   28.55MiB at    3.82MiB/s ETA 00:04[download]  33.4% of   28.55MiB at    6.59MiB/s ETA 00:02[download]  33.5% of   28.55MiB at   10.56MiB/s ETA 00:01[download]  33.8% of   28.55MiB at   17.05MiB/s ETA 00:01[download]  34.2% of   28.55MiB at   29.75MiB/s ETA 00:00[download]  35.1% of   28.55MiB at    6.72MiB/s ETA 00:02[download]  36.8% of   28.55MiB at    9.20MiB/s ETA 00:01[download]  40.3% of   28.55MiB at   11.35MiB/s ETA 00:01[download]  47.3% of   28.55MiB at   15.48MiB/s ETA 00:00[download]  61.3% of   28.55MiB at   14.49MiB/s ETA 00:00[download]  67.3% of   28.55MiB at   13.60MiB/s ETA 00:00[download]  67.4% of   28.55MiB at  668.95KiB/s ETA 00:14[download]  67.4% of   28.55MiB at    1.59MiB/s ETA 00:05[download]  67.4% of   28.55MiB at    3.33MiB/s ETA 00:02[download]  67.4% of   28.55MiB at    6.53MiB/s ETA 00:01[download]  67.5% of   28.55MiB at   12.32MiB/s ETA 00:00[download]  67.6% of   28.55MiB at   22.18MiB/s ETA 00:00[download]  67.8% of   28.55MiB at   14.93MiB/s ETA 00:00[download]  68.2% of   28.55MiB at   20.80MiB/s ETA 00:00[download]  69.1% of   28.55MiB at   19.19MiB/s ETA 00:00[download]  70.8% of   28.55MiB at    9.32MiB/s ETA 00:00[download]  74.3% of   28.55MiB at   11.26MiB/s ETA 00:00[download]  81.4% of   28.55MiB at   11.97MiB/s ETA 00:00[download]  95.4% of   28.55MiB at   15.54MiB/s ETA 00:00[download] 100.0% of   28.55MiB at   16.10MiB/s ETA 00:00[download] 100% of   28.55MiB in 00:00:02 at 13.25MiB/s  
+[ExtractAudio] Destination: /Users/mac/Downloads/egyetem/2026_02_tavasz/hiradok_kozvelkut/M1 - Híradó_20260329.wav
+Deleting original file /Users/mac/Downloads/egyetem/2026_02_tavasz/hiradok_kozvelkut/M1 - Híradó_20260329.webm (pass -k to keep)
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] Extracting URL: https://www.youtube.com/watch?v=gimyExW2I9Y&pp=ygUdbTEgaMOtcmFkw7MgMjAyNi4wMy4yOC4gMTI6MDA%3D
+[youtube] gimyExW2I9Y: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] gimyExW2I9Y: Downloading android vr player API JSON
+[info] gimyExW2I9Y: Downloading 1 format(s): 251
+[download] Destination: /Users/mac/Downloads/egyetem/2026_02_tavasz/hiradok_kozvelkut/M1 - Híradó_20260328.webm
+[download]   0.0% of   29.77MiB at  463.61KiB/s ETA 01:06[download]   0.0% of   29.77MiB at    1.09MiB/s ETA 00:27[download]   0.0% of   29.77MiB at    2.28MiB/s ETA 00:13[download]   0.0% of   29.77MiB at    4.54MiB/s ETA 00:06[download]   0.1% of   29.77MiB at    6.55MiB/s ETA 00:04[download]   0.2% of   29.77MiB at    7.84MiB/s ETA 00:03[download]   0.4% of   29.77MiB at    7.61MiB/s ETA 00:03[download]   0.8% of   29.77MiB at    8.37MiB/s ETA 00:03[download]   1.7% of   29.77MiB at    9.81MiB/s ETA 00:02[download]   3.4% of   29.77MiB at    8.66MiB/s ETA 00:03[download]   6.7% of   29.77MiB at    8.64MiB/s ETA 00:03[download]  13.4% of   29.77MiB at   11.60MiB/s ETA 00:02[download]  26.9% of   29.77MiB at   10.55MiB/s ETA 00:02[download]  31.9% of   29.77MiB at   11.39MiB/s ETA 00:01[download]  31.9% of   29.77MiB at  610.17KiB/s ETA 00:34[download]  32.0% of   29.77MiB at    1.43MiB/s ETA 00:14[download]  32.0% of   29.77MiB at    3.01MiB/s ETA 00:06[download]  32.0% of   29.77MiB at    5.91MiB/s ETA 00:03[download]  32.0% of   29.77MiB at   11.11MiB/s ETA 00:01[download]  32.1% of   29.77MiB at   14.52MiB/s ETA 00:01[download]  32.4% of   29.77MiB at   26.86MiB/s ETA 00:00[download]  32.8% of   29.77MiB at   24.54MiB/s ETA 00:00[download]  33.6% of   29.77MiB at    6.72MiB/s ETA 00:02[download]  35.3% of   29.77MiB at    7.41MiB/s ETA 00:02[download]  38.7% of   29.77MiB at    7.47MiB/s ETA 00:02[download]  45.4% of   29.77MiB at   10.74MiB/s ETA 00:01[download]  58.8% of   29.77MiB at   13.42MiB/s ETA 00:00[download]  64.6% of   29.77MiB at   11.56MiB/s ETA 00:00[download]  64.6% of   29.77MiB at  Unknown B/s ETA 00:10[download]  64.6% of   29.77MiB at    2.09MiB/s ETA 00:05[download]  64.7% of   29.77MiB at    4.26MiB/s ETA 00:02[download]  64.7% of   29.77MiB at    7.01MiB/s ETA 00:01[download]  64.7% of   29.77MiB at   12.74MiB/s ETA 00:00[download]  64.8% of   29.77MiB at   23.62MiB/s ETA 00:00[download]  65.1% of   29.77MiB at   23.07MiB/s ETA 00:00[download]  65.5% of   29.77MiB at   21.16MiB/s ETA 00:00[download]  66.3% of   29.77MiB at   19.78MiB/s ETA 00:00[download]  68.0% of   29.77MiB at    7.00MiB/s ETA 00:01[download]  71.4% of   29.77MiB at    9.46MiB/s ETA 00:00[download]  78.1% of   29.77MiB at   12.99MiB/s ETA 00:00[download]  91.5% of   29.77MiB at   12.63MiB/s ETA 00:00[download]  96.9% of   29.77MiB at    9.26MiB/s ETA 00:00[download]  96.9% of   29.77MiB at  Unknown B/s ETA Unknown[download]  97.0% of   29.77MiB at  Unknown B/s ETA Unknown[download]  97.0% of   29.77MiB at    2.71MiB/s ETA 00:00  [download]  97.0% of   29.77MiB at    4.75MiB/s ETA 00:00[download]  97.0% of   29.77MiB at    7.92MiB/s ETA 00:00[download]  97.2% of   29.77MiB at    9.81MiB/s ETA 00:00[download]  97.4% of   29.77MiB at    7.62MiB/s ETA 00:00[download]  97.8% of   29.77MiB at   12.46MiB/s ETA 00:00[download]  98.6% of   29.77MiB at   20.74MiB/s ETA 00:00[download] 100.0% of   29.77MiB at   29.93MiB/s ETA 00:00[download] 100% of   29.77MiB in 00:00:03 at 9.90MiB/s   
+[ExtractAudio] Destination: /Users/mac/Downloads/egyetem/2026_02_tavasz/hiradok_kozvelkut/M1 - Híradó_20260328.wav
+Deleting original file /Users/mac/Downloads/egyetem/2026_02_tavasz/hiradok_kozvelkut/M1 - Híradó_20260328.webm (pass -k to keep)
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] Extracting URL: https://www.youtube.com/watch?v=ggzxRtkYzDI&pp=ygUdbTEgaMOtcmFkw7MgMjAyNi4wMy4yNy4gMTI6MDA%3D
+[youtube] ggzxRtkYzDI: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] ggzxRtkYzDI: Downloading android vr player API JSON
+[info] ggzxRtkYzDI: Downloading 1 format(s): 251
+[download] Destination: /Users/mac/Downloads/egyetem/2026_02_tavasz/hiradok_kozvelkut/M1 - Híradó_20260327.webm
+[download]   0.0% of   29.70MiB at  663.45KiB/s ETA 00:46[download]   0.0% of   29.70MiB at    1.42MiB/s ETA 00:20[download]   0.0% of   29.70MiB at    2.92MiB/s ETA 00:10[download]   0.0% of   29.70MiB at    5.71MiB/s ETA 00:05[download]   0.1% of   29.70MiB at    6.37MiB/s ETA 00:04[download]   0.2% of   29.70MiB at    8.27MiB/s ETA 00:03[download]   0.4% of   29.70MiB at    8.58MiB/s ETA 00:03[download]   0.8% of   29.70MiB at   10.76MiB/s ETA 00:02[download]   1.7% of   29.70MiB at    8.07MiB/s ETA 00:03[download]   3.4% of   29.70MiB at    7.42MiB/s ETA 00:03[download]   6.7% of   29.70MiB at    7.47MiB/s ETA 00:03[download]  13.5% of   29.70MiB at    5.13MiB/s ETA 00:05[download]  26.6% of   29.70MiB at    4.90MiB/s ETA 00:04[download]  33.5% of   29.70MiB at    5.87MiB/s ETA 00:03[download]  33.5% of   29.70MiB at  496.02KiB/s ETA 00:41[download]  33.5% of   29.70MiB at    1.06MiB/s ETA 00:18[download]  33.5% of   29.70MiB at    2.16MiB/s ETA 00:09[download]  33.6% of   29.70MiB at    4.16MiB/s ETA 00:04[download]  33.6% of   29.70MiB at    7.73MiB/s ETA 00:02[download]  33.7% of   29.70MiB at   10.00MiB/s ETA 00:01[download]  33.9% of   29.70MiB at   16.37MiB/s ETA 00:01[download]  34.4% of   29.70MiB at   18.26MiB/s ETA 00:01[download]  35.2% of   29.70MiB at   24.68MiB/s ETA 00:00[download]  36.9% of   29.70MiB at   19.17MiB/s ETA 00:00[download]  40.2% of   29.70MiB at   16.69MiB/s ETA 00:01[download]  47.0% of   29.70MiB at   12.58MiB/s ETA 00:01[download]  60.4% of   29.70MiB at    9.15MiB/s ETA 00:01[download]  66.0% of   29.70MiB at   10.41MiB/s ETA 00:00[download]  66.0% of   29.70MiB at  487.03KiB/s ETA 00:21[download]  66.0% of   29.70MiB at    1.16MiB/s ETA 00:08[download]  66.0% of   29.70MiB at    2.40MiB/s ETA 00:04[download]  66.1% of   29.70MiB at    4.70MiB/s ETA 00:02[download]  66.1% of   29.70MiB at    5.46MiB/s ETA 00:01[download]  66.2% of   29.70MiB at    9.92MiB/s ETA 00:01[download]  66.4% of   29.70MiB at   13.13MiB/s ETA 00:00[download]  66.8% of   29.70MiB at   20.65MiB/s ETA 00:00[download]  67.7% of   29.70MiB at    5.04MiB/s ETA 00:01[download]  69.4% of   29.70MiB at    7.40MiB/s ETA 00:01[download]  72.7% of   29.70MiB at    9.88MiB/s ETA 00:00[download]  79.5% of   29.70MiB at   14.05MiB/s ETA 00:00[download]  92.9% of   29.70MiB at   11.70MiB/s ETA 00:00[download]  98.2% of   29.70MiB at   10.10MiB/s ETA 00:00[download]  98.2% of   29.70MiB at  405.52KiB/s ETA 00:01[download]  98.2% of   29.70MiB at    1.02MiB/s ETA 00:00[download]  98.2% of   29.70MiB at    2.23MiB/s ETA 00:00[download]  98.2% of   29.70MiB at    4.52MiB/s ETA 00:00[download]  98.3% of   29.70MiB at    8.82MiB/s ETA 00:00[download]  98.4% of   29.70MiB at   16.90MiB/s ETA 00:00[download]  98.6% of   29.70MiB at    9.94MiB/s ETA 00:00[download]  99.0% of   29.70MiB at   19.11MiB/s ETA 00:00[download]  99.8% of   29.70MiB at   23.59MiB/s ETA 00:00[download] 100.0% of   29.70MiB at   24.56MiB/s ETA 00:00[download] 100% of   29.70MiB in 00:00:04 at 7.11MiB/s   
+[ExtractAudio] Destination: /Users/mac/Downloads/egyetem/2026_02_tavasz/hiradok_kozvelkut/M1 - Híradó_20260327.wav
+Deleting original file /Users/mac/Downloads/egyetem/2026_02_tavasz/hiradok_kozvelkut/M1 - Híradó_20260327.webm (pass -k to keep)
+--- Azure Speech Service inicializálása... ---
+
+=== Videó 1/29 feldolgozása ===
+--- Letöltés indítása: M1 - Híradó_20260329.wav ---
+--- Azure Cloud Transzkripció: M1 - Híradó_20260329.wav ---
+Felismerve: Hetente kétmilliárd forint kampánypénzt kaphatott a Tisza pá...
+Felismerve: A kiugrott rendőr nem hős, csak nem tudott egy kémajháratási...
+Felismerve: Ma van virágvasárnap elkezdődött a nagyhét leó pápa a Szent ...
+Felismerve: A veled álmodtam című produkció nyerte a dal -ot pregatem el...
+Felismerve: Jó napot kívánok ez a híradó délben az m egyen és a duna Józ...
+Felismerve: Magyar Péter is rendszeresen kaphatott pénzt zelenszkijéktől...
+Felismerve: Sok pénzt hoztak magyarnak, ők csak így nevezik magyar azt b...
+Felismerve: November óta kapja a pénzt, általában eurót 100-as címletekb...
+Felismerve: Azt tudom, hogy ez a pénz valahonnan Olaszországból jön ausz...
+Felismerve: Ez az a pénz, amit magunk között csak úgy hívunk, hogy a....
+Felismerve: Fekete pénz az ukrán hadsereg fekete pénze, ami felett Zelen...
+Felismerve: Használják, ami elrejti a küldőt. Svájcból is szoktak utalni...
+Felismerve: Az ilyen fekete pénzes kifizetéseket mindig tisztekre bízzák...
+--- Időtúllépés: nincs több beszéd, leállítás... ---
+✅ Mentve: /Users/mac/Downloads/egyetem/2026_02_tavasz/hiradok_kozvelkut/transcripts/M1 - Híradó_20260329.json
+--- Ideiglenes WAV törölve. ---
+
+=== Videó 2/29 feldolgozása ===
+--- Letöltés indítása: M1 - Híradó_20260328.wav ---
+--- Azure Cloud Transzkripció: M1 - Híradó_20260328.wav ---
+Felismerve: Jelentős mennyiségű feketepénz haladt át Magyarországon, és ...
+Felismerve: Egy hónapja kezdődött a közel-keleti háború a jemeni húszi l...
+Felismerve: Téli viharok tonhalnak több balkáni országban, Horvátországb...
+Felismerve: Jó napot kívánok ez a híradó délben az m egyen és a Dunán jó...
+--- Időtúllépés: nincs több beszéd, leállítás... ---
+✅ Mentve: /Users/mac/Downloads/egyetem/2026_02_tavasz/hiradok_kozvelkut/transcripts/M1 - Híradó_20260328.json
+--- Ideiglenes WAV törölve. ---
+
+=== Videó 3/29 feldolgozása ===
+--- Letöltés indítása: M1 - Híradó_20260327.wav ---
+--- Azure Cloud Transzkripció: M1 - Híradó_20260327.wav ---
+Felismerve: Zelenszkij lopott pénzét szállították az arany konvollyal. E...
+Felismerve: Ököllel támadt egy újságírónőre az egyik tiszaszimpatizáns. ...
+Felismerve: Kapkodásba kezdtek az európai országok rájöttek, hogy nincs ...
+Felismerve: Fél Európát megbénítja az extrém havazás Zágrábban bezártak ...
+Felismerve: Ez a híradó délben jó napot kívánok az m egyen és a Dunán. J...
+Felismerve: Zelenszkij lopott pénzét szállították a Magyarországon elfog...
+Felismerve: Az ukrán aranykorvai ügyében folytatott nyomozások során kid...
+Felismerve: A tiszás-ügynök botrányban elfogott ukrán aranykonvoj szállí...
+Felismerve: A Zelenszkij ügyeire jól rálátó egykori politikus azt állítj...
+Felismerve: Származó korrupciós pénz volt....
+Felismerve: Railia a Magyarországon lefoglalt pénz a firepoint vállalat ...
+Felismerve: 2 páncélozott járművét, amelyek Ausztriából tartottak Ukrajn...
+Felismerve: Terrorcselekmény gyanújával a mandiner március közepén írt a...
+Felismerve: Amit az ukrán aranykonvoj szállított, de nem találta szokatl...
+Felismerve: Finanszírozására Amerikában is már ezt vizsgálják. Erről Orb...
+Felismerve: Akarnak ukrán ügynököket küldenek az ukrán barát ellenzéknek...
+Felismerve: Dollármilliárdokat Magyarországon keresztül nyugatra azt is ...
+Felismerve: Brüsszel vette át Washington helyét ugyanaz az ügynökhálózat...
+Felismerve: Megbuktatni a nemzeti kormányt?...
+Felismerve: Még júniusban is elkezdett az exchange for democratitól több...
+Felismerve: Meghaladta a négymilliárd forintot, a pénzosztó szervezetet ...
+Felismerve: O sa iesim a korrupt a pénzcsapott végül Donald Trump zárta ...
+Felismerve: De az a hálózat, amit finanszíroztak beavatkozás céljából Ma...
+Felismerve: Ugyanaz a struktúra támogatja most is AA magyar kormány a ma...
+Felismerve: Tiszás ügynök-botrányban érintett banyi szabolcs publikál az...
+Felismerve: Hazaárulás gyanújával indított vizsgálatot a szlovák kormány...
+Felismerve: A lett miniszterelnök téved Magyarország az uniós megállapod...
+Felismerve: A magyar kormányfő azt írta, Zelenszkij elnök azóta olajblok...
+Felismerve: Kijev nyíltan beavatkozik a magyar kampányba. Ezt mondta Hid...
+Felismerve: A kormány tegnap feljelentette a tiszás ORBÁN anita barátját...
+Felismerve: Nem fogadjuk el, hogy ukrán manipulációkkal akarják befolyás...
+Felismerve: Beszervezték magukat az újságírók közé a politikai pártokhoz...
+Felismerve: Titkosszolgálati akciókat hajtanak végre Magyarországgal sze...
+Felismerve: 2 számot mondták, hogy ők is ezt a 2 számot vehetik a 7-en n...
+Felismerve: Ki adta Szijjártó Péter telefonszámát egy külföldi titkosszo...
+Felismerve: A kormány feljelentette panyi szabolcsot a Tisza párthoz köt...
+Felismerve: Az ukránoknak a Tisza párt berkeibe az egyértelmű az nyilván...
+Felismerve: Azzal, hogyha a tiszapát megtartja ezt a kapcsolatot a jövőb...
+Felismerve: Így már belülről férhetnek hozzá. A legféltettebb államtitko...
+Felismerve: És nemzetbiztonsági adatokhoz, jelen pillanatban a tiszapárt...
+Felismerve: Sérthetik....
+Felismerve: Az ország biztonsági érdekeit hozzátette, a szolgálatok köte...
+Felismerve: Agresszívan fenyegette egy tisztes szimpatizáns a mandiner ú...
+Felismerve: Egyre kevesebben kíváncsiak a Tisza elnökének rendezvényeire...
+Felismerve: 2 évben azért dolgoztam, hogy egy igazságosabb, emberségeseb...
+Felismerve: Ilyen kedves....
+Felismerve: Veszel a barátom vagy megjelöl a banánom a tiszás szimpatizá...
+Felismerve: Parancsolsz parancsol hát az anyukádnak légy szíves ilyen ke...
+Felismerve: Egy másik nő csak mosolygott a történteken....
+Felismerve: Tényleg és nem támadott rám nem anyámat a szádra vetette rib...
+Felismerve: Abbahagyjátok vagy abbahagyjátok, de mit hagyunk abbahagyni,...
+Felismerve: A legócskábbak én azt mondta, hogy a fideszesek a legócskább...
+Felismerve: Barátom vagy megnyered a banánom....
+Felismerve: A megafon egyik munkatársára tiszás biztonságiak támadtak rá...
+Felismerve: Eredményeire deák dániel közölte, volt rendőri intézkedés, a...
+Felismerve: A munkatársaitért támadásokról tájékoztatta a közmédia az EB...
+Felismerve: Vezetése megerősítette, hogy a választási időszakra vonatkoz...
+Felismerve: 10 nappal elhalasztotta az iráni energetikai célpontok ellen...
+Felismerve: Ennek mentén szeretnék lezárni a konfliktust....
+Felismerve: Katonai célpontokat bombázott az amerikai légierő csütörtökö...
+Felismerve: Robbanások rázták meg teheránt és csütörtök este újabb támad...
+Felismerve: Donald Trump ugyanis 10 nappal elhalasztatta az azokat célzó...
+Felismerve: Ehhez olyan fegyvereket irányítanak a térségbe, amiket erede...
+Felismerve: Ilyesmi gyakran előfordul, rengeteg lőszerünk van többek köz...
+Felismerve: Míg Washington figyelmét az iráni háború köti le, addig Oros...
+Felismerve: Védelmezték iránt ugyanis habár stratégiai partnernek tartju...
+Felismerve: Amit a nemzetközi jog megsértésének nevezett, eközben libano...
+Felismerve: A terrorszervezet ugyanakkor továbbra is harcképes és napról...
+Felismerve: A zsidó állam azért a légicsapások mellett szárazföldi offen...
+Felismerve: Az utóbbi évtizedekben többször is elfoglalta a most kijelöl...
+Felismerve: Kapkodásba kezdtek az európai országok, miután hetek óta csa...
+Felismerve: Egyre nagyobb mértékben emelkedik a 95-ös benzin ára a német...
+Felismerve: Mostantól a benzinkutak naponta csak egyszer emelhetik az ár...
+Felismerve: Jelentette be a német energiaügyi miniszter....
+Felismerve: A benzinkutak a napi egy áremelést helyi idő szerint délben ...
+Felismerve: Átjárnak azokba az országokba, ahol lényegesen olcsóbb az üz...WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] Extracting URL: https://www.youtube.com/watch?v=dMJ5wByolL4&pp=ygUdbTEgaMOtcmFkw7MgMjAyNi4wMy4yNi4gMTI6MDA%3D
+[youtube] dMJ5wByolL4: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] dMJ5wByolL4: Downloading android vr player API JSON
+[info] dMJ5wByolL4: Downloading 1 format(s): 251
+[download] Destination: /Users/mac/Downloads/egyetem/2026_02_tavasz/hiradok_kozvelkut/M1 - Híradó_20260326.webm
+[download]   0.0% of   26.96MiB at  Unknown B/s ETA Unknown[download]   0.0% of   26.96MiB at    2.10MiB/s ETA 00:12  [download]   0.0% of   26.96MiB at    2.82MiB/s ETA 00:09[download]   0.1% of   26.96MiB at    5.24MiB/s ETA 00:05[download]   0.1% of   26.96MiB at    5.95MiB/s ETA 00:04[download]   0.2% of   26.96MiB at    7.11MiB/s ETA 00:03[download]   0.5% of   26.96MiB at    8.06MiB/s ETA 00:03[download]   0.9% of   26.96MiB at    9.36MiB/s ETA 00:02[download]   1.9% of   26.96MiB at   13.02MiB/s ETA 00:02[download]   3.7% of   26.96MiB at    3.66MiB/s ETA 00:07[download]   7.4% of   26.96MiB at    4.89MiB/s ETA 00:05[download]  14.8% of   26.96MiB at    7.98MiB/s ETA 00:02[download]  29.7% of   26.96MiB at    1.82MiB/s ETA 00:10[download]  35.7% of   26.96MiB at    2.04MiB/s ETA 00:08[download]  35.7% of   26.96MiB at  660.52KiB/s ETA 00:27[download]  35.7% of   26.96MiB at    1.34MiB/s ETA 00:12[download]  35.7% of   26.96MiB at    2.65MiB/s ETA 00:06[download]  35.7% of   26.96MiB at    4.97MiB/s ETA 00:03[download]  35.8% of   26.96MiB at    9.13MiB/s ETA 00:01[download]  35.9% of   26.96MiB at   16.56MiB/s ETA 00:01[download]  36.1% of   26.96MiB at   29.38MiB/s ETA 00:00[download]  36.6% of   26.96MiB at   17.18MiB/s ETA 00:00[download]  37.5% of   26.96MiB at    1.41MiB/s ETA 00:11[download]  39.4% of   26.96MiB at    2.35MiB/s ETA 00:06[download]  43.1% of   26.96MiB at    3.42MiB/s ETA 00:04[download]  50.5% of   26.96MiB at    5.45MiB/s ETA 00:02[download]  65.3% of   26.96MiB at    6.12MiB/s ETA 00:01[download]  72.2% of   26.96MiB at    6.70MiB/s ETA 00:01[download]  72.2% of   26.96MiB at  595.19KiB/s ETA 00:12[download]  72.2% of   26.96MiB at    1.46MiB/s ETA 00:05[download]  72.3% of   26.96MiB at    3.11MiB/s ETA 00:02[download]  72.3% of   26.96MiB at    6.15MiB/s ETA 00:01[download]  72.3% of   26.96MiB at   11.76MiB/s ETA 00:00[download]  72.5% of   26.96MiB at   21.98MiB/s ETA 00:00[download]  72.7% of   26.96MiB at   12.96MiB/s ETA 00:00[download]  73.2% of   26.96MiB at   16.38MiB/s ETA 00:00[download]  74.1% of   26.96MiB at   18.44MiB/s ETA 00:00[download]  75.9% of   26.96MiB at    3.23MiB/s ETA 00:02[download]  79.6% of   26.96MiB at    5.50MiB/s ETA 00:00[download]  87.1% of   26.96MiB at    7.94MiB/s ETA 00:00[download] 100.0% of   26.96MiB at    2.89MiB/s ETA 00:00[download] 100% of   26.96MiB in 00:00:09 at 2.82MiB/s   
+[ExtractAudio] Destination: /Users/mac/Downloads/egyetem/2026_02_tavasz/hiradok_kozvelkut/M1 - Híradó_20260326.wav
+Deleting original file /Users/mac/Downloads/egyetem/2026_02_tavasz/hiradok_kozvelkut/M1 - Híradó_20260326.webm (pass -k to keep)
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] Extracting URL: https://www.youtube.com/watch?v=Zd39r9IGVEo&pp=ygUdbTEgaMOtcmFkw7MgMjAyNi4wMy4yNS4gMTI6MDA%3D
+[youtube] Zd39r9IGVEo: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] Zd39r9IGVEo: Downloading android vr player API JSON
+[info] Zd39r9IGVEo: Downloading 1 format(s): 251
+[download] Destination: /Users/mac/Downloads/egyetem/2026_02_tavasz/hiradok_kozvelkut/M1 - Híradó_20260325.webm
+[download]   0.0% of   29.85MiB at  682.56KiB/s ETA 00:45[download]   0.0% of   29.85MiB at    1.48MiB/s ETA 00:20[download]   0.0% of   29.85MiB at    2.97MiB/s ETA 00:10[download]   0.0% of   29.85MiB at    5.77MiB/s ETA 00:05[download]   0.1% of   29.85MiB at    5.44MiB/s ETA 00:05[download]   0.2% of   29.85MiB at    6.08MiB/s ETA 00:04[download]   0.4% of   29.85MiB at    6.86MiB/s ETA 00:04[download]   0.8% of   29.85MiB at    9.75MiB/s ETA 00:03[download]   1.7% of   29.85MiB at    9.31MiB/s ETA 00:03[download]   3.3% of   29.85MiB at    8.52MiB/s ETA 00:03[download]   6.7% of   29.85MiB at    8.51MiB/s ETA 00:03[download]  13.4% of   29.85MiB at    8.25MiB/s ETA 00:03[download]  26.8% of   29.85MiB at    6.87MiB/s ETA 00:03[download]  32.7% of   29.85MiB at    7.48MiB/s ETA 00:02[download]  32.7% of   29.85MiB at  256.09KiB/s ETA 01:20[download]  32.7% of   29.85MiB at  670.55KiB/s ETA 00:30[download]  32.7% of   29.85MiB at    1.45MiB/s ETA 00:13[download]  32.7% of   29.85MiB at    2.97MiB/s ETA 00:06[download]  32.8% of   29.85MiB at    5.85MiB/s ETA 00:03[download]  32.9% of   29.85MiB at   11.36MiB/s ETA 00:01[download]  33.1% of   29.85MiB at   19.31MiB/s ETA 00:01[download]  33.5% of   29.85MiB at   24.24MiB/s ETA 00:00[download]  34.3% of   29.85MiB at   26.81MiB/s ETA 00:00[download]  36.0% of   29.85MiB at   25.54MiB/s ETA 00:00[download]  39.4% of   29.85MiB at   26.99MiB/s ETA 00:00[download]  46.1% of   29.85MiB at   10.99MiB/s ETA 00:01[download]  59.5% of   29.85MiB at   10.96MiB/s ETA 00:01[download]  64.7% of   29.85MiB at   10.97MiB/s ETA 00:00[download]  64.7% of   29.85MiB at  Unknown B/s ETA Unknown[download]  64.7% of   29.85MiB at  Unknown B/s ETA Unknown[download]  64.8% of   29.85MiB at  Unknown B/s ETA Unknown[download]  64.8% of   29.85MiB at  Unknown B/s ETA Unknown[download]  64.8% of   29.85MiB at   29.20MiB/s ETA 00:00  [download]  64.9% of   29.85MiB at   48.06MiB/s ETA 00:00[download]  65.2% of   29.85MiB at   26.60MiB/s ETA 00:00[download]  65.6% of   29.85MiB at   33.08MiB/s ETA 00:00[download]  66.4% of   29.85MiB at   29.71MiB/s ETA 00:00[download]  68.1% of   29.85MiB at    2.77MiB/s ETA 00:03[download]  71.4% of   29.85MiB at    4.95MiB/s ETA 00:01[download]  78.1% of   29.85MiB at    8.12MiB/s ETA 00:00[download]  91.5% of   29.85MiB at    8.74MiB/s ETA 00:00[download]  97.8% of   29.85MiB at    8.94MiB/s ETA 00:00[download]  97.8% of   29.85MiB at  694.88KiB/s ETA 00:00[download]  97.8% of   29.85MiB at    1.54MiB/s ETA 00:00[download]  97.8% of   29.85MiB at    3.20MiB/s ETA 00:00[download]  97.9% of   29.85MiB at    6.20MiB/s ETA 00:00[download]  97.9% of   29.85MiB at   11.70MiB/s ETA 00:00[download]  98.0% of   29.85MiB at   22.05MiB/s ETA 00:00[download]  98.2% of   29.85MiB at   15.76MiB/s ETA 00:00[download]  98.6% of   29.85MiB at   22.04MiB/s ETA 00:00[download]  99.5% of   29.85MiB at   25.39MiB/s ETA 00:00[download] 100.0% of   29.85MiB at   26.20MiB/s ETA 00:00[download] 100% of   29.85MiB in 00:00:03 at 8.16MiB/s   
+[ExtractAudio] Destination: /Users/mac/Downloads/egyetem/2026_02_tavasz/hiradok_kozvelkut/M1 - Híradó_20260325.wav
+Deleting original file /Users/mac/Downloads/egyetem/2026_02_tavasz/hiradok_kozvelkut/M1 - Híradó_20260325.webm (pass -k to keep)
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] Extracting URL: https://www.youtube.com/watch?v=cwybWC4_CcM&pp=ygUdbTEgaMOtcmFkw7MgMjAyNi4wMy4yNC4gMTI6MDA%3D
+[youtube] cwybWC4_CcM: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] cwybWC4_CcM: Downloading android vr player API JSON
+[info] cwybWC4_CcM: Downloading 1 format(s): 251
+[download] Destination: /Users/mac/Downloads/egyetem/2026_02_tavasz/hiradok_kozvelkut/M1 - Híradó_20260324.webm
+[download]   0.0% of   28.18MiB at  467.96KiB/s ETA 01:02[download]   0.0% of   28.18MiB at  900.13KiB/s ETA 00:32[download]   0.0% of   28.18MiB at    1.60MiB/s ETA 00:17[download]   0.1% of   28.18MiB at    2.93MiB/s ETA 00:09[download]   0.1% of   28.18MiB at    2.75MiB/s ETA 00:10[download]   0.2% of   28.18MiB at    3.39MiB/s ETA 00:08[download]   0.4% of   28.18MiB at    4.82MiB/s ETA 00:05[download]   0.9% of   28.18MiB at    6.57MiB/s ETA 00:04[download]   1.8% of   28.18MiB at    9.90MiB/s ETA 00:02[download]   3.5% of   28.18MiB at   13.85MiB/s ETA 00:01[download]   7.1% of   28.18MiB at    9.85MiB/s ETA 00:02[download]  14.2% of   28.18MiB at   11.07MiB/s ETA 00:02[download]  28.4% of   28.18MiB at   10.23MiB/s ETA 00:01[download]  35.1% of   28.18MiB at   10.53MiB/s ETA 00:01[download]  35.1% of   28.18MiB at  Unknown B/s ETA Unknown[download]  35.1% of   28.18MiB at    1.66MiB/s ETA 00:11  [download]  35.1% of   28.18MiB at    2.76MiB/s ETA 00:06[download]  35.1% of   28.18MiB at    4.66MiB/s ETA 00:03[download]  35.2% of   28.18MiB at    8.05MiB/s ETA 00:02[download]  35.3% of   28.18MiB at   13.81MiB/s ETA 00:01[download]  35.5% of   28.18MiB at  682.17KiB/s ETA 00:27[download]  36.0% of   28.18MiB at    1.29MiB/s ETA 00:14[download]  36.8% of   28.18MiB at    2.38MiB/s ETA 00:07[download]  38.6% of   28.18MiB at    4.10MiB/s ETA 00:04[download]  42.2% of   28.18MiB at    5.48MiB/s ETA 00:02[download]  49.3% of   28.18MiB at    6.74MiB/s ETA 00:02[download]  63.5% of   28.18MiB at    7.54MiB/s ETA 00:01[download]  70.2% of   28.18MiB at    7.31MiB/s ETA 00:01[download]  70.2% of   28.18MiB at  470.16KiB/s ETA 00:18[download]  70.2% of   28.18MiB at  983.27KiB/s ETA 00:08[download]  70.2% of   28.18MiB at    1.86MiB/s ETA 00:04[download]  70.2% of   28.18MiB at    3.47MiB/s ETA 00:02[download]  70.3% of   28.18MiB at    6.32MiB/s ETA 00:01[download]  70.4% of   28.18MiB at    9.34MiB/s ETA 00:00[download]  70.6% of   28.18MiB at   15.33MiB/s ETA 00:00[download]  71.1% of   28.18MiB at   23.52MiB/s ETA 00:00[download]  72.0% of   28.18MiB at   22.32MiB/s ETA 00:00[download]  73.7% of   28.18MiB at   21.74MiB/s ETA 00:00[download]  77.3% of   28.18MiB at   23.23MiB/s ETA 00:00[download]  84.4% of   28.18MiB at    4.62MiB/s ETA 00:00[download]  93.5% of   28.18MiB at    6.40MiB/s ETA 00:00[download] 100.0% of   28.18MiB at    6.89MiB/s ETA 00:00[download] 100% of   28.18MiB in 00:00:03 at 7.39MiB/s   
+[ExtractAudio] Destination: /Users/mac/Downloads/egyetem/2026_02_tavasz/hiradok_kozvelkut/M1 - Híradó_20260324.wav
+Deleting original file /Users/mac/Downloads/egyetem/2026_02_tavasz/hiradok_kozvelkut/M1 - Híradó_20260324.webm (pass -k to keep)
